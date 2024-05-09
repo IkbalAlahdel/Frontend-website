@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Cairo", Courier, monospace;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Slider */
+/* .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.411);
+    position: absolute;
+    z-index: 1;
+} */
+/* HEADER */
+.header .login:hover{
+    cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+/* FEATURES STYLE */
+.features{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between; 
+
+}
+.h-feautres{
+    display: block;
+}
+.features-card{
+    justify-content: space-between;  
+    border-radius: 25px;
+    padding: 20px 25px 45px 25px;
+    width: 250px;
+    margin-left: auto;
+    transition:all 0.55ms ease;
+    align-items: center;
+    text-align: center;
+
+}
+.features-card:hover{
+    transform: scale(1.1); 
+ 
+}
+.features i{
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    font-size: 30px; 
+}
+.features p{
+line-height: 1.8;
+}
+/* TEAM STYLE */
+.team{
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.team h2{
+    margin-top: 60px;
+}
+.team-card{
+    background-color: #f8f9fa;
+    border-radius: 35px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    transition:all 0.55ms ease;
+    align-items: center;
+    text-align: center;
+
+}
+.team-card:hover{
+    transform: scale(1.1); 
+
+}
+.img-box img{
+    width: 125px;
+    align-items: center;
+    margin: auto;
+    /* margin-bottom: -100px; */
+}
+.img-box{
+    width: 125px;
+    border-radius: 100%;
+    margin-bottom: -62px;
+    margin-left: 70px;
+}
+.details{
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 95px 25px 45px 25px;
+}
+/* STATISTICS STYLE */
+.statistics{
+    width: 100%;
+    height: 500px;
+    background-image: url('painting-vincent-van-gogh-abstract-the-starry-night-wallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    text-align: center;
+
+}
+.statistics .overlay{
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 100%;
+    height: 100%;
+    padding-top: 190px;
+}
+.statistics .overlay h3{
+    color:white;
+}
+.statistics .overlay p{
+    color:white;
+    font-size: 35px;
+}
+/* CUSTOMER STYLE */
+.customer{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 30px;
+    /* border-bottom: 300px;
+    border-color:rgb(216, 185, 7) ; */
+}
+.customer img{
+    width: 100px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* transition:all 0.55ms ease; */
+}
+/* .customer img:hover{
+transform: scale(1.1);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 100%;
+} */
+.m-img{
+    margin-top: -20px;
+}
+.m-img1{
+    margin-top: -5px;
+}
+/* RECENT RECIEVED STYLE */
+.recent-recieved{
+    justify-content: space-between;
+}
+.recent-recieved-card{
+    padding: 20px 25px 45px 25px;
+    width: 350px;
+    height: 100%;
+    border-radius: 15px;
+    margin-left: auto;
+    transition:all 0.55ms ease;
+    align-items: center;
+    text-align: center;
+
+}
+.recent-recieved-card img{
+    transition:all 0.55ms ease;
+}
+.recent-recieved-card img:hover{
+    transform: scale(1.1); 
+}
+.recent-recieved-card .btn{
+background-color:rgb(216, 185, 7) ;
+border-color: rgb(216, 185, 7);
+color:white;
+}
+/* FOOTER STYLE */
+footer{
+    background-color:#f8f9fa ;
+    padding-top: 25px; 
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer p{
+    color: rgba(0, 0, 0, 0.836);
+    text-align: justify;
+}
+
+footer ul li{
+    color: rgba(0, 0, 0, 0.836);
+    list-style: none;
+    padding-left: 2rem;
+}
+footer ul a{
+    text-decoration: none;
+    align-items: center;
+    
+}
+footer i{
+    color: rgba(0, 0, 0, 0.836);
+}
+footer ul li span{
+    color: rgba(0, 0, 0, 0.836);
+    margin-left: 9px;
+}
+/* <-------------------BLOG STYLE----------------------> */
+.jumbo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.jumbo .blog-info{
+    flex: 2;
+}
+.jumbo .blog-img{
+    flex: 1;
+    padding-left:1px;
+}
+.blog_details img{
+width: 90%;
+height: 50%;
+margin-top: 20px;
+margin-bottom: 15px;
+}
+.blog_details p{
+text-align: justify;
+width: 90%;
+line-height: 2;
+ }
+ .btn-sty{
+     width: 90%;
+ }
+ .pagn{
+margin-left: 30%;
+ }
